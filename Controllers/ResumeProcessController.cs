@@ -116,7 +116,7 @@ namespace EasyZ.Controllers
             user.Rselectid = id;
             TempData["user"] = user;
             //Ashish
-
+            //kumar jha
             List<Questions> Qbyrid_list = new List<Questions>();
 
             obj_DBcmd.addParameter("@rid", user.Rselectid.ToString());
