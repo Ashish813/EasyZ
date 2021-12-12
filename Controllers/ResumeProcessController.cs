@@ -115,7 +115,7 @@ namespace EasyZ.Controllers
             user = (UserDetail)TempData["user"];
             user.Rselectid = id;
             TempData["user"] = user;
-
+            //Ashish
 
             List<Questions> Qbyrid_list = new List<Questions>();
 
